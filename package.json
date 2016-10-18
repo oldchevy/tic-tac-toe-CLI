@@ -1,0 +1,24 @@
+{
+  "name": "tic-tac-toe-cli",
+  "version": "1.0.0",
+  "description": "Play tic-tac-toe in the terminal",
+  "main": "init.js",
+  "scripts": {
+    "test": "mocha ttt.tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oldchevy/tic-tac-toe-CLI.git"
+  },
+  "author": "Nick Olszowy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oldchevy/tic-tac-toe-CLI/issues"
+  },
+  "homepage": "https://github.com/oldchevy/tic-tac-toe-CLI#readme",
+  "dependencies": {
+    "color": "^0.11.3",
+    "colors": "^1.1.2",
+    "prompt": "^1.0.0"
+  }
+}
