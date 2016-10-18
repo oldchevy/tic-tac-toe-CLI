@@ -38,4 +38,14 @@ Board.prototype.insert = function(row, col, player) {
 
 };
 
+Board.prototype.checkPosition = function(row, col) {
+  return this._board[row][col] !== ' ';
+};
+
+Board.prototype.winChecker = function() {
+
+
+  return winner ? winner : undefined;
+};
+
 module.exports = Board;

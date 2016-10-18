@@ -4,7 +4,8 @@
   "description": "Play tic-tac-toe in the terminal",
   "main": "init.js",
   "scripts": {
-    "test": "mocha ttt.tests.js"
+    "test": "mocha ttt.tests.js",
+    "start": "node init.js"
   },
   "repository": {
     "type": "git",
