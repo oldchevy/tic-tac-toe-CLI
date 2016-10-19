@@ -60,7 +60,7 @@ var getMove = function(player, badMove) {
       if (winner) {
         winner === true 
           ? console.log('\n\nDraw -\n\n', game.drawBoard())
-          : console.log('\n\nWinner is ' + winner + '!\n\n', game.drawBoard());
+          : console.log(('\n\nWinner is ' + winner + '!\n\n').rainbow, game.drawBoard());
         newGame();
       } else {      
         player = !player;
